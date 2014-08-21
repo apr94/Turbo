@@ -12,8 +12,6 @@ int compareFunc(float a, float b){
 
 int main(){
 
-
-
 	Turbo::PriorityQueue<float> pq(compareFunc);
 
 	for(int i = 0; i < 7; i++){
@@ -35,8 +33,6 @@ int main(){
 		q.push(pqn->getRightChild());
 
 	}
-
 	
 	return 0;
-
 }

@@ -2,15 +2,12 @@
 
 using namespace std;
 
-
 namespace Turbo{
-
 
 	template<typename T>
 		class PriorityQueue;
 
 	template<typename T>
-
 		class PriorityQueueNode{
 
 			friend class PriorityQueue<T>;
